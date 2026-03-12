@@ -1,0 +1,14 @@
+flask
+pinecone
+groq
+sentence-transformers
+python-dotenv
+tqdm
+langchain-community
+langchain-text-splitters
+pypdf
+gunicorn
+torch
+numpy
+ipywidgets
+requests
