@@ -13,7 +13,10 @@ INDEX_NAME = "candisp-index"
 NAMESPACE = "candisp_documents"
 
 print("Loading embedding model...")
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+embedding_model = SentenceTransformer(
+    "all-MiniLM-L6-v2",
+    device="cpu"
+)
 print("Embedding model loaded")
 
 print("Connecting to Pinecone...")
